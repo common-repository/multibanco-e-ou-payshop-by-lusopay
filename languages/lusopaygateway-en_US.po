@@ -1,0 +1,345 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: WooCommerce LusopayGateway\n"
+"POT-Creation-Date: 2017-08-17 15:20+0100\n"
+"PO-Revision-Date: 2017-08-17 15:21+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: multibanco-e-ou-payshop-by-lusopay.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: en\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-wc-lusopaygateway.php:137
+#: includes/class-wc-lusopaygateway.php:395
+msgid "LUSOPAY Wallet / Multibanco / Payshop"
+msgstr "LUSOPAY Wallet / Multibanco / Payshop"
+
+#: includes/class-wc-lusopaygateway.php:353
+msgid "Log plugin events, such as callback requests, inside"
+msgstr "Log plugin events, such as callback requests, inside"
+
+#: includes/class-wc-lusopaygateway.php:357
+msgid "Enable/Disable"
+msgstr "Enable/Disable"
+
+#: includes/class-wc-lusopaygateway.php:359
+msgid "Enable LUSOPAY Wallet / Multibanco / Payshop"
+msgstr "Enable LUSOPAY Wallet / Multibanco / Payshop"
+
+#: includes/class-wc-lusopaygateway.php:363
+msgid "Only for Portugal clients?"
+msgstr "Only for Portugal clients?"
+
+#: includes/class-wc-lusopaygateway.php:365
+msgid "Activate only for customers that have a Portuguese address?"
+msgstr "Activate only for customers that have a Portuguese address?"
+
+#: includes/class-wc-lusopaygateway.php:369
+msgid "Only for orders more than"
+msgstr "Only for orders more than"
+
+#: includes/class-wc-lusopaygateway.php:371
+msgid ""
+"Activate only for orders above € x (exclusive). To use Multibanco payment "
+"the minimum order is of € 1.20, and Payshop above 0.01 and LUSOPAY Wallet "
+"above 0 to activate for any order value."
+msgstr ""
+"Activate only for orders above € x (exclusive). To use Multibanco payment "
+"the minimum order is of € 1.20, and Payshop above 0.01 and LUSOPAY Wallet "
+"above 0 to activate for any order value."
+
+#: includes/class-wc-lusopaygateway.php:372
+msgid ""
+"Multibanco only accepts payments between € 1,20 and € 99.999,99; "
+"(inclusive). Payshop only accepts payments below € 4.000,00; (inclusive). "
+"LUSOPAY Wallet only acepts payments above € 0,01. You can use this option to "
+"limit more than the standard values."
+msgstr ""
+"Multibanco only accepts payments between € 1,20 and € 99.999,99; "
+"(inclusive). Payshop only accepts payments below € 4.000,00; (inclusive). "
+"LUSOPAY Wallet only accepts payments above € 0,01. You can use this option "
+"to limit more than the standard values."
+
+#: includes/class-wc-lusopaygateway.php:376
+msgid "Only for orders below"
+msgstr "Only for orders below"
+
+#: includes/class-wc-lusopaygateway.php:378
+msgid ""
+"Activate only for orders below € x (exclusive). Leave blank (or zero) to "
+"activate for any order value."
+msgstr ""
+"Activate only for orders below € x (exclusive). Leave blank (or zero) to "
+"activate for any order value."
+
+#: includes/class-wc-lusopaygateway.php:378
+msgid ""
+"Multibanco only accepts payments between € 1,20 e € 99.999,99 (inclusive). "
+"Payshop only accepts payments below € 4.000,00 (inclusive). LUSOPAY Wallet "
+"accepts payments of € 0,01.  You can use thes option to limit more than the "
+"standard values."
+msgstr ""
+"Multibanco only accepts payments between € 1,20 e € 99.999,99 (inclusive). "
+"Payshop only accepts payments below € 4.000,00 (inclusive). LUSOPAY Wallet "
+"accepts payments of € 0,01.  You can use thes option to limit more than the "
+"standard values."
+
+#: includes/class-wc-lusopaygateway.php:382
+msgid "Change stock"
+msgstr "Change stock"
+
+#: includes/class-wc-lusopaygateway.php:384
+msgid "Choose when to change stock."
+msgstr "Choose when to change stock."
+
+#: includes/class-wc-lusopaygateway.php:387
+msgid "when the order is paid (demands callback feature to be active)"
+msgstr "when the order is paid (demands callback feature to be active)"
+
+#: includes/class-wc-lusopaygateway.php:388
+msgid "when the order is done (before payment)"
+msgstr "when the order is done (before payment)"
+
+#: includes/class-wc-lusopaygateway.php:392
+msgid "Title"
+msgstr "Title"
+
+#: includes/class-wc-lusopaygateway.php:394
+msgid "This controls the title that customer sees when doing checkout."
+msgstr "This controls the title that customer sees when doing checkout."
+
+#: includes/class-wc-lusopaygateway.php:398
+msgid "Description"
+msgstr "Description"
+
+#: includes/class-wc-lusopaygateway.php:400
+msgid "This controls the description that customer sees when doing checkout."
+msgstr "This controls the description that customer sees when doing checkout."
+
+#: includes/class-wc-lusopaygateway.php:401
+msgid ""
+"Payment by QR Code using LUSOPAY Wallet (available in all European Union), "
+"payment by MULTIBANCO reference (only available for customers with a "
+"Portuguese bank account) or payment in a PAYSHOP agent (only available at "
+"Payshop agents in Portugal)."
+msgstr ""
+"Payment by QR Code using LUSOPAY Wallet (available in all European Union), "
+"payment by MULTIBANCO reference (only available for customers with a "
+"Portuguese bank account) or payment in a PAYSHOP agent (only available at "
+"Payshop agents in Portugal)."
+
+#: includes/class-wc-lusopaygateway.php:404
+msgid "ClientGuid"
+msgstr "ClientGuid"
+
+#: includes/class-wc-lusopaygateway.php:406
+msgid ""
+"ClientGuid given by LUSOPAY after registering at LUSOPAY website and after "
+"informing LUSOPAY that you want to activate the Multibanco and/or Payshop "
+"services."
+msgstr ""
+"ClientGuid given by LUSOPAY after registering at LUSOPAY website and after "
+"informing LUSOPAY that you want to activate the Multibanco and/or Payshop "
+"services."
+
+#: includes/class-wc-lusopaygateway.php:410
+msgid "VatNumber"
+msgstr "VatNumber"
+
+#: includes/class-wc-lusopaygateway.php:412
+msgid "It is in the email that you receive when you activate the service."
+msgstr "It is in the email that you receive when you activate the service."
+
+#: includes/class-wc-lusopaygateway.php:416
+msgid "User"
+msgstr "User"
+
+#: includes/class-wc-lusopaygateway.php:418
+msgid ""
+"If you want to make available the QR Code payment, write your LUSOPAY Wallet "
+"username."
+msgstr ""
+"If you want to make available the QR Code payment, write your LUSOPAY Wallet "
+"username."
+
+#: includes/class-wc-lusopaygateway.php:422
+msgid "Anti-phishing Key"
+msgstr "Anti-phishing Key"
+
+#: includes/class-wc-lusopaygateway.php:428
+msgid "Debug Log"
+msgstr "Debug Log"
+
+#: includes/class-wc-lusopaygateway.php:430
+msgid "Enable logging"
+msgstr "Enable logging"
+
+#: includes/class-wc-lusopaygateway.php:446
+msgid ""
+"Follow the instructions to activate Multibanco and / or Payshop service and "
+"callback:"
+msgstr ""
+"Follow the instructions to activate Multibanco and / or Payshop service and "
+"callback:"
+
+#: includes/class-wc-lusopaygateway.php:451
+msgid "Sign up in our website."
+msgstr "Sign up in our website."
+
+#: includes/class-wc-lusopaygateway.php:456
+msgid ""
+"To activate \"Callback\" in your account, send an email message to "
+"geral@lusopay.com with subject \"Callback\", write VAT number and copy the "
+"URL that you see written in bold:"
+msgstr ""
+"To activate \"Callback\" in your account, send an email message to "
+"geral@lusopay.com with subject \"Callback\", write VAT number and copy the "
+"URL that you see written in bold:"
+
+#: includes/class-wc-lusopaygateway.php:462
+msgid ""
+"If you have a LUSOPAY Wallet account, follow these steps to activate "
+"callback:"
+msgstr ""
+"If you have a LUSOPAY Wallet account, follow these steps to activate "
+"callback:"
+
+#: includes/class-wc-lusopaygateway.php:465
+msgid ""
+"Copy the following URL that is written in bold to your LUSOPAY Wallet "
+"account in the menu \"Profile\", you will see a field called \"Url "
+"Notificação Pagamento\" and paste the URL."
+msgstr ""
+"Copy the following URL that is written in bold to your LUSOPAY Wallet "
+"account in the menu \"Profile\", you will see a field called \"Url "
+"Notificação Pagamento\" and paste the URL."
+
+#: includes/class-wc-lusopaygateway.php:468
+msgid "Important safety rule:"
+msgstr "Important safety rule:"
+
+#: includes/class-wc-lusopaygateway.php:469
+msgid ""
+"You must verify if you have a locker icon to avoid that the URL is visible "
+"to other users. If you have a globe icon, click on it to change to a lock "
+"icon."
+msgstr ""
+"You must verify if you have a locker icon to avoid that the URL is visible "
+"to other users. If you have a globe icon, click on it to change to a lock "
+"icon."
+
+#: includes/class-wc-lusopaygateway.php:473
+msgid ""
+"If you have doubts at pasting the URL, send us na email to geral@lusopay."
+"com, with your username and URL. Then, we will paste it to your account."
+msgstr ""
+"If you have doubts at pasting the URL, send us na email to geral@lusopay."
+"com, with your username and URL. Then, we will paste it to your account."
+
+#: includes/class-wc-lusopaygateway.php:495
+msgid "Error!"
+msgstr "Error!"
+
+#: includes/class-wc-lusopaygateway.php:497
+msgid "Select the currency \"Euro\" "
+msgstr "Select the currency \"Euro\" "
+
+#: includes/class-wc-lusopaygateway.php:497
+msgid "Here"
+msgstr "Here"
+
+#: includes/class-wc-lusopaygateway.php:560
+msgid "Payment received."
+msgstr "Payment received."
+
+#: includes/class-wc-lusopaygateway.php:560
+msgid "We will process your order now."
+msgstr "We will process your order now."
+
+#: includes/class-wc-lusopaygateway.php:577
+msgid "Waiting for payment by Wallet / Multibanco / Payshop."
+msgstr "Waiting for payment by Wallet / Multibanco / Payshop."
+
+#: includes/class-wc-lusopaygateway.php:1032
+msgid "Ent"
+msgstr "Ent"
+
+#: includes/class-wc-lusopaygateway.php:1033
+msgid "MB Ref"
+msgstr "MB Ref"
+
+#: includes/class-wc-lusopaygateway.php:1037
+msgid "PS Ref"
+msgstr "PS Ref"
+
+#: includes/class-wc-lusopaygateway.php:1040
+msgid "Value"
+msgstr "Value"
+
+#: includes/class-wc-lusopaygateway.php:1104
+msgid ""
+"Temporary status. Used to force an email on the next order status change."
+msgstr ""
+"Temporary status. Used to force an email on the next order status change."
+
+#: includes/class-wc-lusopaygateway.php:1108
+msgid "Payment received by Payshop using ref: "
+msgstr "Payment received by Payshop using ref: "
+
+#: includes/class-wc-lusopaygateway.php:1111
+msgid "Payment received by LUSOPAY Wallet for user "
+msgstr "Payment received by LUSOPAY Wallet for user "
+
+#: includes/class-wc-lusopaygateway.php:1113
+msgid "Payment received by Multibanco using ref: "
+msgstr "Payment received by Multibanco using ref: "
+
+#: multibanco-e-ou-payshop-by-lusopay.php:140
+msgid ""
+"Wallet / Multibanco / Payshop (by LUSOPAY) for WooCommerce is installed and "
+"active but WooCommerce isn't."
+msgstr ""
+"Wallet / Multibanco / Payshop (by LUSOPAY) for WooCommerce is installed and "
+"active but WooCommerce isn't."
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce LusopayGateway"
+msgstr "WooCommerce LusopayGateway"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/multibanco-e-ou-payshop-by-lusopay/"
+msgstr "https://wordpress.org/plugins/multibanco-e-ou-payshop-by-lusopay/"
+
+#. Description of the plugin/theme
+msgid ""
+"Official Payment Gateway Plugin from LUSOPAY to WooCommerce for LUSOPAY "
+"Wallet / Multibanco / Payshop. In order to use this plugin you need to "
+"register in <a href=\"https://www.lusopay.com\" target=\"_blank\">LUSOPAY</"
+"a>. For more information how to join us <a href=\"https://www.lusopay.com\" "
+"target=\"_blank\">click here</a>."
+msgstr ""
+"Official Payment Gateway Plugin from LUSOPAY to WooCommerce for LUSOPAY "
+"Wallet / Multibanco / Payshop. In order to use this plugin you need to "
+"register in <a href=\"https://www.lusopay.com\" target=\"_blank\">LUSOPAY</"
+"a>. For more information how to join us <a href=\"https://www.lusopay.com\" "
+"target=\"_blank\">click here</a>."
+
+#. Author of the plugin/theme
+msgid "LUSOPAY"
+msgstr "LUSOPAY"
+
+#. Author URI of the plugin/theme
+msgid "https://www.lusopay.com"
+msgstr "https://www.lusopay.com"
